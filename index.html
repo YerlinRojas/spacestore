@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alura-Geek</title>
+    <link rel="stylesheet" href="./ccs/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <!-- Header -->
+    <header class="navbar flex justify-between">
+        <div class="flex nav__bar">
+            <a href="./index.html" class="navbar-brand mr-[10%]">SpaceStore</a>
+            <div class="navbar-toggle" id="navbar-toggle">☰</div>
+        </div>
+        <ul id="navbar-menu" class="items-end">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./pages/form.html">New</a></li>
+        </ul>
+    </header>
+
+    <!-- Productos -->
+    <main class="container mx-auto py-8">
+        <h2 class="text-2xl font-semibold text-center mb-8 color__titulo">Nuestros Juegos</h2>
+        <div class="card__item grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 text-sm" data-list>
+            <!-- Card de producto -->
+        </div>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="color__footer py-6">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2024 GameStore. Todos los derechos reservados.</p>
+        </div>
+    </footer>
+<script src="./js/nav.js" type="module" ></script>
+<script src="./js/list.js" type="module"></script>
+<script src="./js/API.js" type="module"></script>
+</body>
+</html>

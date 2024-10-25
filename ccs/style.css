@@ -1,0 +1,95 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+body {
+    font-family: 'Press Start 2P', cursive;
+    background-color: #f1e9da;
+    background-image: url('../img/space_wallpaper.jpg');
+    background-size: 1200px 800px;
+    background-repeat: repeat;
+
+}
+
+.navbar {
+    background-color: #132a41;
+    padding: 10px 20px;
+    position: relative;
+    z-index: 10;
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    color: #be293f;
+}
+
+.navbar-toggle {
+    display: none;
+    cursor: pointer;
+    color: #4848fb;
+    font-size: 1.5rem;
+}
+
+.navbar ul {
+    display: flex;
+    list-style: none;
+}
+
+.navbar a {
+    color: #6161ee;
+    text-decoration: none;
+    padding: 5px ;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.navbar a:hover {
+    background-color: #faafba;
+    color: #ffffff;
+}
+
+.card__item h3{
+    font-family: 'Press Start 2P', cursive;
+    
+}
+
+img {
+    image-rendering: pixelated; /* For pixelated image rendering */
+}
+
+.color__titulo{
+    color: #6161ee;
+}
+
+.color__footer{
+background-color: #132a41;
+color: #6161ee;
+}
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .navbar ul {
+        display: none;
+        flex-direction: column;
+        
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        border-top: 2px solid #faafba;
+        z-index: 10;
+    }
+
+    .navbar ul.active {
+        display: flex;
+    }
+
+    .navbar-toggle {
+        display: block;
+        justify-content: end;
+        align-items: end;
+       
+    }
+}
+
+
+
+
+
+
