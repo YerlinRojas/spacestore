@@ -1,0 +1,44 @@
+{
+  "list": [
+    {
+      "id": "1",
+      "nombre": "The Legend of Zelda: Breath of the Wild",
+      "descripcion": "Explora un mundo abierto lleno de aventuras y desafíos. Ayuda a Link a salvar Hyrule.",
+      "precio": 59.99,
+      "imagen": "https://www.nintendo.com/eu/media/images/10_share_images/games_15/wiiu_14/SI_WiiU_TheLegendOfZeldaBreathOfTheWild_image1280w.jpg",
+      "categoria": "aventura"
+    },
+    {
+      "id": "2",
+      "nombre": "FIFA 24",
+      "descripcion": "Vive la emoción del fútbol con el juego más realista de la serie FIFA, ahora con más equipos y modos de juego.",
+      "precio": 49.99,
+      "imagen": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtG7UaNuPNY1DFX-YhPBt87LRy9A0Y2IkBAQ&s",
+      "categoria": "deportes"
+    },
+    {
+      "id": "3",
+      "nombre": "Call of Duty: Modern Warfare II",
+      "descripcion": "Acción intensa y combates tácticos en la última entrega de la saga Call of Duty.",
+      "precio": 69.99,
+      "imagen": "https://shared.cloudflare.steamstatic.com/store_item_assets/steam/apps/1962660/capsule_616x353.jpg?t=1710969334",
+      "categoria": "accion"
+    },
+    {
+      "id": "4",
+      "nombre": "Civilization VI",
+      "descripcion": "Construye un imperio que resista el paso del tiempo en este clásico juego de estrategia.",
+      "precio": 39.99,
+      "imagen": "https://image.api.playstation.com/vulcan/ap/rnd/202107/0117/7m6ildcmU9N41ldFdhEXb09O.jpg",
+      "categoria": "estrategia"
+    },
+    {
+      "id": "c03f",
+      "nombre": "Space Cadet",
+      "descripcion": "The best game of the world",
+      "precio": "100 USD",
+      "imagen": "https://www.myabandonware.com/media/screenshots/s/space-cadet-3d-pinball-ilp/space-cadet-3d-pinball_1.jpg",
+      "categoria": "Accion"
+    }
+  ]
+}
