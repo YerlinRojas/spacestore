@@ -62,6 +62,7 @@ img {
 background-color: #132a41;
 color: #6161ee;
 }
+
 /* Responsive Styles */
 @media (max-width: 768px) {
     .navbar ul {
